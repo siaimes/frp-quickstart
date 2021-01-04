@@ -65,9 +65,10 @@ Their modification will not take affect without the service re-installation.
     Defines a sequence of actions, which should be performed if the managed executable fails.
     Supported actions: restart, reboot, none
   -->
-  <!--
+
   <onfailure action="restart" delay="10 sec"/>
   <onfailure action="restart" delay="20 sec"/>
+  <!--
   <onfailure action="reboot" />
   -->
   
